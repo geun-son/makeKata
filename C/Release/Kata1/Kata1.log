@@ -1,0 +1,5 @@
+﻿  StrategyManager.cpp
+  Generating code
+d:\git\kata\katabot\c\kata1\strategymanager.cpp(244): warning C4700: uninitialized local variable 'im' used
+  Finished generating code
+  Kata1.vcxproj -> D:\git\kata\KataBot\C\Release\Kata1\Kata1.exe
