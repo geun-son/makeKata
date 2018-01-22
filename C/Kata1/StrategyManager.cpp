@@ -183,7 +183,14 @@ void StrategyManager::executeCombat()
 	areWeNeedAttackSomeWhere(attackPositions);
 	for (BWAPI::Position pos : attackPositions)
 	{
-
+		if (pos.getDistance(myMainBaseLocation->getPosition()))
+		{
+			std::cout << "getDistance" << std::endl;
+		}
+		else
+		{
+			std::cout << "getDistance2" << std::endl;
+		}
 	}
 }
 
