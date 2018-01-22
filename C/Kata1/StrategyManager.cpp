@@ -186,12 +186,12 @@ void StrategyManager::executeCombat()
 		if (pos.getDistance(myMainBaseLocation->getPosition()))
 		{
 			std::cout << "getDistance" << std::endl;
-			std::cout << "tag test" << std::endl;
 
 		}
 		else
 		{
 			std::cout << "getDistance2" << std::endl;
+			std::cout << "tag test" << std::endl;
 		}
 	}
 }
